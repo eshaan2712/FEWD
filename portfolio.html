@@ -1,61 +1,126 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="portfolio.css"> -->
+        <style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+section {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #2c3e50;
+  border-bottom: 2px solid #2c3e50;
+  padding-bottom: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+        </style>
+        <title>Eshaan's Portfolio</title>
     </head>
     <body>
         <header>
-          <h1 align = "center">Eshaan's Portfolio</h1>
+            <h1>Eshaan's Portfolio</h1>
         </header>
+
         <section id="about">
-          <h2>About</h2>
-          <p>
-            Aspiring software engineer with a passion for crafting efficient solutions to real-world problems.
-            </p>
-            <p> 
-            Always eager to learn, adapt, and push the boundaries of technology to build impactful applications.
-          </p>
+            <h2>About</h2>
+            <p>Aspiring software engineer with a passion for crafting efficient solutions to real-world problems.</p>
+            <p>Always eager to learn, adapt, and push the boundaries of technology to build impactful applications.</p>
         </section>
-        <section id="skills">
-          <h2>Technical Skills</h2>
-          <ol>
-            <li>Programming Languages
-              <ul>
-                <li>C</li>
-                <li>C++</li>
-                <li>Python</li>
-                <li>Java</li>
-              </ul>
-            </li>
-            <li>Databases
-              <ul>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-              </ul>
-            </li>
-            <li>Tools
-              <ul>
-                <li>Git</li>
-                <li>GitHub</li>
-              </ul>
-            </li>
-          </ol>
+
+        <section id="education">
+            <h2>Educational Qualification</h2>
+            <table>
+                <tr>
+                    <th>Academic Year</th>
+                    <th>Institution</th>
+                    <th>Percentile</th>
+                </tr>
+                <tr>
+                    <td>2007-2020</td>
+                    <td>SGGS</td>
+                    <td>77.72</td>
+                </tr>
+                <tr>
+                    <td>2020-2022</td>
+                    <td>SJC</td>
+                    <td>97</td>
+                </tr>
+                <tr>
+                    <td>2022-2026</td>
+                    <td>KMIT</td>
+                    <td>86</td>
+                </tr>
+            </table>
         </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <h3>Nyaay Sahayak, App as a Legal Assistant (February 2024)</h3>
-            <p>Technologies: ReactJS, ExpressJS, MongoDB, NLP</p>
-            <ul>
-                <li>Developed a digital assistant that can provide legal information and guidance to people in a user-friendly manner</li>
-                <li>The digital assistant has the ability to converse in multiple languages and provide information in a concise and easy-to-understand manner.</li>
-                <li>The platform is accessible through various devices, including smartphones, tablets, and desktop computers.</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you have any questions or just want to say hello, feel free to <a href="mailto:yourname@example.com">email
-                me</a>.</p>
-          </section>
-        <footer align = "center">&copy; Eshaan's Portfolio 2025</footer>
+
+        <footer>&copy; Eshaan's Portfolio 2025</footer>
+    </body>
 </html>
